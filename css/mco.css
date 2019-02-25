@@ -1,0 +1,89 @@
+/*html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}*/
+
+.container {
+	text-align: center;
+}
+
+#titre {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150px;
+	text-shadow: 5px 5px 7px #292929;
+}
+
+#titre1 {
+    margin-top: 30px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100px;
+	text-shadow: 5px 5px 7px #292929;
+}
+
+#sfr {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.class {
+    background-image : url("../images/sfr.png") ;
+    /*border: none;*/
+    width: 100px; /* largeur à spécifier */
+    height: 100px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+#altice {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#contenu {
+	border: solid 1px;
+    margin-top: -5px;
+    padding: -5px 120px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #555555;
+}
+
+#semaine {
+	padding-right: 100px;
+	 font-size: 140px;
+}
+
+#etat {
+	padding-left: 100px;
+	 font-size: 140px;
+}
+
+.red {
+	color: red;
+}
+
+#date {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#taches {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.text {
+    text-align: initial;
+    margin: auto ;
+}
